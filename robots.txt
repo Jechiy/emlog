@@ -1,2 +1,8 @@
+#
+# robots.txt for emlog
+#
+
 User-agent: *
-Disallow: /
+Disallow: /admin/
+Disallow: /include/
+Disallow: /config.php
