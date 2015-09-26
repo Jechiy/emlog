@@ -38,6 +38,7 @@ RUN mkdir -p /app && rm -rf /var/www/html && ln -s /app /var/www/html
 COPY . /app
 WORKDIR /app
 RUN chmod -R  777  /app/content/cache
+RUN chmod -R  777  /app/config.php
 RUN chmod 777 ./start.sh
 
 EXPOSE 80
